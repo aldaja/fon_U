@@ -1,6 +1,16 @@
+
 {
-  "version": 1,
-  "model": "fon_U.tflite",
-  "probability_cutoff": 0.5,
-  "sliding_window_size": 10
+  "type": "micro",
+  "version": 2,
+  "wake_word": "fon u",
+  "author": "You",
+  "description": "Custom wake word for Atom Echo",
+  "model": "https://github.com/aldaja/fon_U/blob/main/fon_U.tflite",
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_size": 10,
+    "feature_step_size": 10,
+    "tensor_arena_size": 24000,
+    "minimum_esphome_version": "2025.6.3"
+  }
 }
