@@ -1,7 +1,6 @@
 {
-  "wake_word": "fon_u",
-  "sample_rate": 16000,
-  "channels": 1,
-  "length_ms": 500,
-  "model": "fon_U.tflite"
+  "version": "1.0",
+  "model": "fon_U.tflite",
+  "probability_cutoff": 0.5,
+  "sliding_window_size": 10
 }
