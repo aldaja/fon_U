@@ -1,0 +1,7 @@
+{
+  "wake_word": "fon_u",
+  "sample_rate": 16000,
+  "channels": 1,
+  "length_ms": 500,
+  "model": "fon_U.tflite"
+}
