@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": 1,
   "model": "fon_U.tflite",
   "probability_cutoff": 0.5,
   "sliding_window_size": 10
