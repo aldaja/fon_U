@@ -5,7 +5,7 @@
   "wake_word": "fon u",
   "author": "You",
   "description": "Custom wake word for Atom Echo",
-  "model": "file:///config/esphome/fonu.tflite",
+  "model": "https://github.com/aldaja/fon_U/blob/main/fonu.tflite",
   "micro": {
     "probability_cutoff": 0.5,
     "sliding_window_size": 10,
